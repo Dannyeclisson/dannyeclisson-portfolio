@@ -22,9 +22,6 @@ export default function Navbar() {
           <a href="#stack" className="hover:text-white transition">
             Stack
           </a>
-          <a href="#principios" className="hover:text-white transition">
-            Princípios
-          </a>
           <a href="#contato" className="hover:text-white transition">
             Contato
           </a>
