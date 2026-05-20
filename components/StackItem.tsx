@@ -8,7 +8,7 @@ interface StackItemProps {
 export default function StackItem({ src, name }: StackItemProps) {
   return (
     <div className="flex items-center gap-3">
-      <div className="relative w-5 h-5">
+      <div className="relative w-6 h-6">
         <Image
         src={src}
         alt={name}
