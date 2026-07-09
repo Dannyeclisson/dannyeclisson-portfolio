@@ -6,6 +6,12 @@ export const metadata: Metadata = {
   title: "Dannyeclisson Rodrigo | Desenvolvedor Full Stack Júnior",
   description:
     "Portfólio de Dannyeclisson Rodrigo, estudante de Engenharia de Software na UnB, com experiência em sistemas corporativos, frontend, backend e projetos web.",
+  manifest: "/images/icons/site.webmanifest",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/images/icons/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({

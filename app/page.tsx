@@ -174,7 +174,7 @@ function SectionHeader({
 }: {
   eyebrow: string;
   title: string;
-  description: string;
+  description?: string;
 }) {
   return (
     <div className="mb-10 max-w-3xl md:mb-12">
@@ -184,9 +184,11 @@ function SectionHeader({
       <h2 className="mb-4 text-2xl font-semibold text-blue-400 md:text-3xl">
         {title}
       </h2>
-      <p className="text-base leading-relaxed text-zinc-400 md:text-lg">
-        {description}
-      </p>
+      {description && (
+        <p className="text-base leading-relaxed text-zinc-400 md:text-lg">
+          {description}
+        </p>
+      )}
     </div>
   );
 }
@@ -240,7 +242,7 @@ export default function Home() {
         id="inicio"
         className="mx-auto flex min-h-[calc(100vh-6rem)] max-w-6xl items-center pb-16 md:pb-20"
       >
-        <div className="grid w-full items-center gap-10 md:grid-cols-[1fr_15rem] lg:grid-cols-[1fr_18rem]">
+        <div className="grid w-full items-center gap-10 md:grid-cols-[minmax(0,1fr)_16rem] lg:grid-cols-[minmax(0,1fr)_22rem]">
           <div>
             <p className="mb-4 text-sm font-semibold uppercase tracking-[0.18em] text-blue-300">
               Desenvolvedor Full Stack Júnior em formação
@@ -269,7 +271,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="relative h-60 w-60 justify-self-start overflow-hidden rounded-full border border-zinc-800 md:h-56 md:w-56 md:justify-self-end">
+          <div className="relative h-48 w-48 justify-self-start overflow-hidden rounded-full border border-zinc-800 shadow-2xl shadow-blue-950/25 sm:h-56 sm:w-56 md:h-64 md:w-64 md:justify-self-end lg:h-80 lg:w-80 lg:justify-self-center">
             <Image
               src="/images/Profile.jpeg"
               alt="Foto de perfil de Dannyeclisson Rodrigo"
