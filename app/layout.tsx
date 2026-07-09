@@ -3,8 +3,9 @@ import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
-  title: "Dannyeclisson Rodrigo",
-  description: "Portfólio profissional - Engenharia de Software",
+  title: "Dannyeclisson Rodrigo | Desenvolvedor Full Stack Júnior",
+  description:
+    "Portfólio de Dannyeclisson Rodrigo, estudante de Engenharia de Software na UnB, com experiência em sistemas corporativos, frontend, backend e projetos web.",
 };
 
 export default function RootLayout({
