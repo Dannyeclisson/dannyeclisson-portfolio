@@ -322,7 +322,7 @@ export default function Home() {
               <a
                 href={featuredProject.url}
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 className="block rounded border border-zinc-700 bg-zinc-950 p-5 transition-colors hover:border-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-300"
                 aria-label="Abrir o projeto Rizzo Implantes em uma nova aba"
               >
@@ -377,7 +377,7 @@ export default function Home() {
             <a
               href={featuredProject.url}
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="inline-flex w-full items-center justify-center gap-2 rounded border border-blue-400/60 px-5 py-3 text-sm font-semibold text-blue-300 transition-colors hover:border-blue-300 hover:bg-blue-400/10 hover:text-blue-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-300 sm:w-auto"
             >
               Acessar projeto
@@ -507,7 +507,7 @@ export default function Home() {
             <a
               href="https://github.com/Dannyeclisson"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 rounded border border-zinc-700 px-4 py-3 transition-colors hover:border-blue-400 hover:text-blue-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-300 sm:justify-start"
             >
               <FaGithub aria-hidden="true" size={16} />
@@ -517,7 +517,7 @@ export default function Home() {
             <a
               href="https://www.linkedin.com/in/dannyeclisson-rodrigo-828893283/"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 rounded border border-zinc-700 px-4 py-3 transition-colors hover:border-blue-400 hover:text-blue-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-300 sm:justify-start"
             >
               <FaLinkedin aria-hidden="true" size={16} />
